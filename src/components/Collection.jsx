@@ -1,6 +1,6 @@
 import { FiArrowUpRight } from "react-icons/fi";
 
-import Door from "../assets/dor4.webp";
+import Door from "../assets/dor1.webp";
 import Kitchen from "../assets/kitchen2.webp";
 import Bed from "../assets/bed2.webp";
 

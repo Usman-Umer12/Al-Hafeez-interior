@@ -1,6 +1,6 @@
 
 import { useEffect, useRef, useState } from "react";
-import { FiArrowUpRight, FiMaximize2, FiX } from "react-icons/fi";
+import { FiArrowUpRight} from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
 
 import Navbar from "../components/Navbar";
@@ -28,12 +28,29 @@ import dor8 from "../assets/dor8.webp";
 import dor9 from "../assets/dor9.webp";
 import dor10 from "../assets/dor10.webp";
 import dor11 from "../assets/dor11.webp";
+import dor12 from "../assets/dor12.png";
+import dor13 from "../assets/dor13.png";
+import dor14 from "../assets/dor14.png";
+import dor15 from "../assets/dor15.png";
+import dor16 from "../assets/dor16.png";
+import dor17 from "../assets/dor17.png";
+import dor18 from "../assets/dor18.png";
+import dor19 from "../assets/dor19.png";
+import dor20 from "../assets/dor20.png";
 
 // Cabinets
 import cabort1 from "../assets/cabort1.webp";
 import cabort2 from "../assets/cabort2.webp";
 import cabort3 from "../assets/cabort3.webp";
 import cabort4 from "../assets/cabort4.webp";
+import cabort5 from "../assets/cabort5.webp";
+import cabort6 from "../assets/cabort6.png";
+import cabort7 from "../assets/cabort7.png";
+import cabort8 from "../assets/cabort8.png";
+import cabort9 from "../assets/cabort9.png";
+import cabort10 from "../assets/cabort10.png";
+import cabort11 from "../assets/cabort11.png";
+import cabort12 from "../assets/cabort12.png";
 
 // Dining
 import table1 from "../assets/table1.webp";
@@ -54,6 +71,14 @@ import kitchen1 from "../assets/kitchen1.webp";
 import kitchen2 from "../assets/kitchen2.webp";
 import kitchen3 from "../assets/kitchen3.webp";
 import kitchen4 from "../assets/kitchen4.webp";
+import kitchen6 from "../assets/kitchen6.png";
+import kitchen7 from "../assets/kitchen7.png";
+import kitchen8 from "../assets/kitchen8.png";
+import kitchen9 from "../assets/kitchen9.png";
+import kitchen10 from "../assets/kitchen10.png";
+import kitchen11 from "../assets/kitchen11.png";
+import kitchen12 from "../assets/kitchen12.png";
+import kitchen13 from "../assets/kitchen13.png";
 
 // TV Units
 import Tv1 from "../assets/Tv1.webp";
@@ -65,7 +90,7 @@ import Tv4 from "../assets/Tv4.webp";
 // WHATSAPP
 // ============================================================
 
-const WHATSAPP_NUMBER = "923054449894";
+const WHATSAPP_NUMBER = "923167373603";
 
 // ============================================================
 // PRODUCTS DATA
@@ -166,6 +191,52 @@ const productCategories = [
                 name: "Luxury Decorative Room Divider",
                 alt: "Luxury decorative wooden room divider",
             },
+            {
+                image: dor12,
+                name: "Luxury Decorative Room Divider",
+                alt: "Luxury decorative wooden room divider",
+            },
+            {
+                image: dor13,
+                name: "Luxury Dor 13",
+                alt: "Luxury decorative wooden room divider",
+            },
+            {
+                image: dor14,
+                name: "Luxury Dor 14",
+                alt: "Luxury decorative wooden room divider",
+            },
+            {
+                image: dor15,
+                name: "Luxury Dor 15",
+                alt: "Luxury decorative wooden room divider",
+            },
+            {
+                image: dor16,
+                name: "Luxury Dor 16",
+                alt: "Luxury decorative wooden room divider",
+            },
+            {
+                image: dor17,
+                name: "Luxury Dor 17",
+                alt: "Luxury decorative wooden room divider",
+            },
+            {
+                image: dor18,
+                name: "Luxury Dor 18",
+                alt: "Luxury decorative wooden room divider",
+            },
+            {
+                image: dor19,
+                name: "Luxury Dor 19",
+                alt: "Luxury decorative wooden room divider",
+            },
+            {
+                image: dor20,
+                name: "Luxury Dor 20",
+                alt: "Luxury decorative wooden room divider",
+            },
+
         ],
     },
 
@@ -195,6 +266,41 @@ const productCategories = [
             {
                 image: cabort4,
                 name: "Classic Glass Display Wardrobe",
+                alt: "Classic glass display wooden wardrobe",
+            },
+             {
+                image: cabort6,
+                name: "Luxury Cabort 6",
+                alt: "Classic glass display wooden wardrobe",
+            },
+             {
+                image: cabort7,
+                name: "Luxury Cabort 7",
+                alt: "Classic glass display wooden wardrobe",
+            },
+             {
+                image: cabort8,
+                name: "Luxury Cabort 8",
+                alt: "Classic glass display wooden wardrobe",
+            },
+             {
+                image: cabort9,
+                name: "Luxury Cabort 9",
+                alt: "Classic glass display wooden wardrobe",
+            },
+             {
+                image: cabort10,
+                name: "Luxury Cabort 10",
+                alt: "Classic glass display wooden wardrobe",
+            },
+             {
+                image: cabort11,
+                name: "Luxury Cabort 11",
+                alt: "Classic glass display wooden wardrobe",
+            },
+             {
+                image: cabort12,
+                name: "Luxury Cabort 12",
                 alt: "Classic glass display wooden wardrobe",
             },
         ],
@@ -296,8 +402,43 @@ const productCategories = [
                 alt: "Luxury L-shaped modular kitchen design",
             },
             {
-                image: kitchen4,
+                image: kitchen6,
                 name: "Classic Elegant Modular Kitchen",
+                alt: "Classic elegant modular kitchen design",
+            },
+             {
+                image: kitchen7,
+                name: "Luxury Kitchen 7",
+                alt: "Classic elegant modular kitchen design",
+            },
+             {
+                image: kitchen8,
+                name: "Luxury Kitchen 8",
+                alt: "Classic elegant modular kitchen design",
+            },
+             {
+                image: kitchen9,
+                name: "Luxury Kitchen 9",
+                alt: "Classic elegant modular kitchen design",
+            },
+             {
+                image: kitchen10,
+                name: "Luxury Kitchen 10",
+                alt: "Classic elegant modular kitchen design",
+            },
+             {
+                image: kitchen11,
+                name: "Luxury Kitchen 11",
+                alt: "Classic elegant modular kitchen design",
+            },
+             {
+                image: kitchen12,
+                name: "Luxury Kitchen 12",
+                alt: "Classic elegant modular kitchen design",
+            },
+             {
+                image: kitchen13,
+                name: "Luxury Kitchen 13",
                 alt: "Classic elegant modular kitchen design",
             },
         ],
@@ -383,35 +524,7 @@ function ProductCard({ product, onImageClick, priority = false }) {
 
                 {/* View Image */}
 
-                <button
-                    type="button"
-                    onClick={() => onImageClick(product)}
-                    aria-label={`View ${product.name} image`}
-                    className="
-                        absolute
-                        right-4
-                        top-4
-                        flex
-                        h-10
-                        w-10
-                        items-center
-                        justify-center
-                        rounded-full
-                        bg-white/90
-                        text-[#302820]
-                        opacity-0
-                        shadow-lg
-                        backdrop-blur-md
-                        transition-all
-                        duration-300
-                        group-hover:opacity-100
-                        hover:scale-110
-                        hover:bg-[#17120e]
-                        hover:text-white
-                    "
-                >
-                    <FiMaximize2 className="text-[17px]" />
-                </button>
+   
             </div>
 
             {/* INFO */}

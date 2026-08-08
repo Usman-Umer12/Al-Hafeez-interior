@@ -303,7 +303,7 @@ export default function Footer() {
                   size={15}
                   className="shrink-0 text-[#d7c4ae]"
                 />
-                <span>+923054449894</span>
+                <span>+923167373603</span>
               </a>
 
 

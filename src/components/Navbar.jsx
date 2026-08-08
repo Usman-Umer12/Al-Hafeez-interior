@@ -232,7 +232,7 @@ export default function Navbar() {
 
           <div className="hidden lg:flex">
             <a
-              href="https://wa.me/923001234567"
+              href="https://wa.me/923167373603"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Contact us on WhatsApp"

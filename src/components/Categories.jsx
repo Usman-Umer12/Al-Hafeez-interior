@@ -18,7 +18,7 @@ export default function Categories() {
     {
       name: "Doors",
       slug: "doors",
-      items: "11 Items",
+      items: "19 Items",
       image: Door,
     },
     {
@@ -30,7 +30,7 @@ export default function Categories() {
     {
       name: "Cabinets",
       slug: "cabinets",
-      items: "04 Items",
+      items: "11 Items",
       image: Cabinet,
     },
     {
@@ -42,7 +42,7 @@ export default function Categories() {
     {
       name: "Kitchen",
       slug: "kitchen",
-      items: "04 Items",
+      items: "12 Items",
       image: Kitchen,
     },
     {
