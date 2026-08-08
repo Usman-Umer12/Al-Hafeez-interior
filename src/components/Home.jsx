@@ -2,8 +2,8 @@ import { useEffect, useRef, useState } from "react";
 import { FiArrowRight } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
 
-import Home1 from "../assets/Home1.webp";
-import Home2 from "../assets/Home2.webp";
+import Home1 from "../assets/home1.webp";
+import Home2 from "../assets/home2.webp";
 import Home3 from "../assets/decor2.webp";
 import Home4 from "../assets/kitchen1.webp";
 
