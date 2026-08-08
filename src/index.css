@@ -1,11 +1,15 @@
-@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
 
-body{
-    font-family:'Manrope',sans-serif;
-    background:#F7F4EF;
+@import "tailwindcss";
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background: #F7F4EF;
 }
-/* Hide Horizontal Scrollbar */
+
+/* ===============================
+   Hide Horizontal Scrollbar
+================================ */
 
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
@@ -21,45 +25,49 @@ body{
 ================================ */
 
 @keyframes fadeSlide {
-  0%{
-    opacity:0;
-    transform:translateY(40px);
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
   }
 
-  100%{
-    opacity:1;
-    transform:translateY(0);
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
-.animate-fade{
-  animation:fadeSlide .8s ease;
+.animate-fade {
+  animation: fadeSlide 0.8s ease;
 }
 
-.hero-image{
-  transition:transform .8s ease;
+.hero-image {
+  transition: transform 0.8s ease;
 }
 
-.hero-image:hover{
-  transform:scale(1.05);
+.hero-image:hover {
+  transform: scale(1.05);
 }
 
-.hero-btn{
-  transition:all .35s ease;
+.hero-btn {
+  transition: all 0.35s ease;
 }
 
-.hero-btn:hover{
-  transform:translateY(-4px);
+.hero-btn:hover {
+  transform: translateY(-4px);
 }
 
-.hero-tag{
-  transition:.35s;
+.hero-tag {
+  transition: 0.35s;
 }
 
-.hero-tag:hover{
-  background:#2D2119;
-  color:white;
+.hero-tag:hover {
+  background: #2D2119;
+  color: white;
 }
+
+/* ===============================
+   Marquee Animation
+================================ */
 
 @keyframes marquee {
   from {
@@ -78,6 +86,11 @@ body{
 .animate-marquee:hover {
   animation-play-state: paused;
 }
+
+/* ===============================
+   Fade Up Animation
+================================ */
+
 @keyframes fadeUp {
   from {
     opacity: 0;

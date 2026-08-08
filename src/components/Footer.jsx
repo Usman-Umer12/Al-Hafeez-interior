@@ -320,7 +320,7 @@ export default function Footer() {
                   size={15}
                   className="shrink-0 text-[#d7c4ae]"
                 />
-                <span>Raiwind Lahore, Pakistan</span>
+                <span>Lahore, Pakistan</span>
               </div>
             </div>
           </div>
